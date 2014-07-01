@@ -1,0 +1,74 @@
+[
+    {
+      "temporarilyOffline": false,
+      "oneOffExecutors": [],
+      "offlineCauseReason": "",
+      "offlineCause": null,
+      "offline": false,
+      "numExecutors": 2,
+      "monitorData": {
+        "hudson.node_monitors.ClockMonitor": {
+          "diff": 0
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "size": 129721405440,
+          "path": "/Users/gbowles/.jenkins"
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "size": 129721405440,
+          "path": "/private/var/folders/_x/dvl9ff855_7d4gsj87sw32bjbnqfd5/T"
+        },
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "average": 0
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Mac OS X (x86_64)",
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "totalSwapSpace": 1073741824,
+          "totalPhysicalMemory": -1,
+          "availableSwapSpace": 1035993088,
+          "availablePhysicalMemory": -1
+        }
+      },
+      "manualLaunchAllowed": true,
+      "actions": [],
+      "displayName": "master",
+      "executors": [
+        {},
+        {}
+      ],
+      "icon": "computer.png",
+      "idle": true,
+      "jnlpAgent": false,
+      "launchSupported": true,
+      "loadStatistics": {}
+    },
+    {
+      "temporarilyOffline": false,
+      "oneOffExecutors": [],
+      "offlineCauseReason": "This node is offline because Jenkins failed to launch the slave agent on it.",
+      "offlineCause": {},
+      "offline": true,
+      "numExecutors": 1,
+      "monitorData": {
+        "hudson.node_monitors.ClockMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "average": 5000
+        },
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.SwapSpaceMonitor": null
+      },
+      "manualLaunchAllowed": true,
+      "actions": [],
+      "displayName": "gbawstools",
+      "executors": [
+        {}
+      ],
+      "icon": "computer-flash.gif",
+      "idle": true,
+      "jnlpAgent": false,
+      "launchSupported": true,
+      "loadStatistics": {}
+    }
+]
