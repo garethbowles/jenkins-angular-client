@@ -1,0 +1,68 @@
+[
+    {
+    "name": "cpatrick-tmp",
+    "size": 1
+    },
+    {
+    "name": "MCE-Publish-Priority-Rules",
+    "size": 3
+    },
+    {
+    "name": "MCE-reloaded-apps-joblet-tests",
+    "size": 22
+    },
+    {
+    "name": "MCE-reloaded-apps-QACertTests",
+    "size": 168
+    },
+    {
+    "name": "MCE-reloaded-dev-taskr",
+    "size": 156
+    },
+    {
+    "name": "MCE-TESTS-SEED",
+    "size": 1
+    },
+    {
+    "name": "PERFORCE_MAINTENANCE_DOWNTIME",
+    "size": 1
+    },
+    {
+    "name": "PPD-NTS-CI-CAD-CROS-PROD",
+    "size": 1
+    },
+    {
+    "name": "PPD-NTS-harnesses-CI-NRDP4.0-Gibbon-Experiment",
+    "size": 1
+    },
+    {
+    "name": "TL-JEN-builds-find-bad-slaves",
+    "size": 1
+    },
+    {
+    "name": "TL-JEN-count_failed_jobs",
+    "size": 3
+    },
+    {
+    "name": "TL-JEN-monitor_busy_dynaslave_executors",
+    "size": 62
+    },
+    {
+    "name": "TL-JEN-update_job_configs",
+    "size": 1
+    },
+    {
+    "name": "TL-JEN-update-master-config",
+    "size": 1
+    },
+    {
+    "name": "WE-WAPP-matrixdeploy-joblet",
+    "size": 413
+    },
+    {
+    "name": "WE-WAPP-matrixdeploy-QACertTests",
+    "size": 308
+    },
+    {
+  }
+]

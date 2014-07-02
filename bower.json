@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "jenkins-angular-client",
+  "description": "An AngularJS Jenkins client",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/garethbowles/jenkins-angular-client",
   "license": "MIT",
   "private": true,
   "dependencies": {
