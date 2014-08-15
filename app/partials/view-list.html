@@ -9,11 +9,11 @@
     <div class="col-md-10">
       <!--Body content-->
 
-      <ul class="jobs">
-        <p>{{jobs.length}} jobs:</p>
-        <li ng-repeat="job in jobs | filter:query" class="thumbnail">
-          <a href="#/jobs/{{job.name}}">{{job.name}}</a>
-          <img ng-src="{{job.color | buildStatusImg}}"/>
+      <ul class="views">
+        <p>{{views.length}} views:</p>
+        <li ng-repeat="view in views | filter:query" class="thumbnail">
+          <a href="#/views/{{view.name}}">{{view.name}}</a>
+          <p>URL: <a href="{{view.url}}">{{view.url}}</a></p>
         </li>
       </ul>
 

@@ -15,15 +15,3 @@ body {
   height: 100px;
   width: 100px;
 }
-
-.jobs li {
-  clear: both;
-  height: 115px;
-  padding-top: 15px;
-}
-
-.nodes li {
-  clear: both;
-  height: 115px;
-  padding-top: 15px;
-}

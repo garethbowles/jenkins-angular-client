@@ -4,14 +4,19 @@
   <meta charset="utf-8">
   <title>Jenkins Angular Client</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="http://uicommons.test.netflix.net/lib/bootstrap-3.10/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://uicommons.test.netflix.net/css/common.css">
   <link rel="stylesheet" href="css/app.css">
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="js/app.js"></script>
   <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
 </head>
 <body>
-
+  <div data-nf-header class="ng-cloak">
+    <h2><a href="/">Jenkins Dashboard</a></h2>
+  </div>
   <div ng-view></div>
 
 </body>

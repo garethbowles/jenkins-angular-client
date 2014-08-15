@@ -4,13 +4,18 @@
 
 var jenkinsclientApp = angular.module('jenkinsclientApp', [
   'ngRoute',
-  'jenkinsclientControllers'
+  'jenkinsclientControllers',
+  'jenkinsclientFilters'
 ]);
 
 jenkinsclientApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/jobs', {
+      when('/views', {
+        templateUrl: 'partials/view-list.html',
+        controller: 'viewListCtrl'
+      }).
+      when('/views/:viewId', {
         templateUrl: 'partials/job-list.html',
         controller: 'jobListCtrl'
       }).
@@ -27,6 +32,6 @@ jenkinsclientApp.config(['$routeProvider',
         controller: 'nodeDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/jobs'
+        redirectTo: '/views'
       });
   }]);

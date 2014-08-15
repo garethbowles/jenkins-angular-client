@@ -1,5 +1,9 @@
-<h1>{{job.displayName}}</h1>
-
-<p><a href="{{job.url}}">{{job.url}}</a></p>
-
-<p>{{job.description}}<p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10">
+      <h3><a href="{{job.url}}">{{job.displayName}}</a></h3>
+      <p>{{job.description}}<p>
+      <p>{{job.healthReport[0].description}}</p>
+    </div>
+  </div>
+</div>
